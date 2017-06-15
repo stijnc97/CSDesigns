@@ -1,0 +1,17 @@
+<% include header %>
+
+<h1> Welcome to my instagram</h1>
+<section class="instagram">
+  <% afbeeldingen.forEach(function(afbeelding){ %>
+    <figure>
+      <a href="https://www.instagram.com/p/<%- afbeelding.id %>/?taken-by=kristo.fm"><img src="<%- afbeelding.media %>" alt="alt text" ></a>
+      <figcaption>
+          <% if (afbeelding.text) { %>
+            <%- afbeelding.text %>
+            <%} else {%>Click to see this picture<%} %>
+      </figcaption>
+    </figure>
+  <% }); %>
+</section>
+
+<% include footer %>

@@ -1,0 +1,12 @@
+{
+  "name": "CS designs",
+  "version": "1.0.0",
+  "description": "Portfoliosite van Cornelis Stijn",
+  "main": "index.js",
+  "author": "Stijn Cornelis",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}

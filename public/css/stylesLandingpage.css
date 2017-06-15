@@ -1,0 +1,78 @@
+/* -----------------------------------------------------------------------
+   |  Welkom geavanceerde internetgebruiker!                             |
+   | Als je deze tekst leest dan wilt het zeggen dat je mijn code aan    |
+   | het inspecteren bent. En ik hoop dat je er een beetje aan uit kunt  |
+   |  - Cornelis Stijn                                                   |
+   -----------------------------------------------------------------------
+*/
+body{
+  background: black;
+}
+#logo{
+  width:50vw;
+  position: absolute;
+  top: 15vh;
+  left: 20vw;
+}
+.container2{
+  position: absolute;
+  padding: 10px;
+  margin: 5vh 5vw;
+  z-index: 1000000;
+}
+.container{
+  border: 10px solid white;
+  margin: 5vh 5vw;
+  box-sizing: border-box;
+  position: relative;
+  height: 90vh;
+  width: 90vw;
+  animation: Color 2.5s linear 0s infinite;
+}
+.one, .two{
+  background: black;
+}
+.one{
+  width: 105%;
+  height: 100%;
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
+  position: absolute;
+  bottom: -10px;
+  right: 0px;
+  animation: drawONE 5s ease-in-out 0s 1 normal forwards;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.two{
+  width: 105%;
+  height: 100%;
+  border-top: 10px solid black;
+  border-left: 10px solid black;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  animation: drawTWO 5s ease-in-out 0s 1 normal forwards;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+@keyframes drawTWO {
+    0%   {width: 105%; height: 100%;}
+    50%  {width: 105%; height: 10px;}
+    99% {width: 0%; height: 0px;  border-top: 10px solid black; border-left: 10px solid black;}
+    100% {width: 0%; height: 0px; border: none}
+}
+@keyframes drawONE {
+    0%   {width: 105%; height: 100%;}
+    50%  {width: 105%; height: 10px;}
+    99% {width: 0vw; height: 0px;border-bottom: 10px solid black; border-right: 10px solid black;}
+    100% {width: 0vw; height: 0px; border: none}
+}
+@keyframes Color {
+    20%   {border-color: #FF0000}
+    40%   {border-color: #2400FF}
+    60%   {border-color: #12FF00}
+    80%   {border-color: #FCFF00}
+    100%   {border-color: #FF9000}
+}

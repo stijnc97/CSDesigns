@@ -1,0 +1,85 @@
+/* -----------------------------------------------------------------------
+   |  Welkom geavanceerde internetgebruiker!                             |
+   | Als je deze tekst leest dan wilt het zeggen dat je mijn code aan    |
+   | het inspecteren bent. En ik hoop dat je er een beetje aan uit kunt  |
+   |  - Cornelis Stijn                                                   |
+   -----------------------------------------------------------------------
+*/
+body{
+  background: black;
+  color: white;
+}
+h5{
+  font-size: 5em;
+}
+li{
+   display: inline;
+}
+li a{
+  background-color: white;
+  animation: color 10s linear 0s infinite;
+  font-size: 1.2em;
+  padding: 0.2vw;
+  color: black;
+}
+li a:visited{
+  color: black;
+}
+li a:hover{
+    padding: 0.8vw;
+}
+nav{
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: relative;
+  left:-46vw;
+  top:0vh;
+}
+.container2{
+  position: absolute;
+  padding: 10px;
+  margin: 5vh 5vw;
+  z-index: 1000000;
+}
+.container{
+  border: 10px solid white;
+  margin: 5vh 5vw;
+  box-sizing: border-box;
+  position: relative;
+  height: 90vh;
+  width: 90vw;
+  animation: Color 10s linear 0s infinite;
+}
+
+#logo{
+  width:50vw;
+  position: absolute;
+  top: 15vh;
+  left: 20vw;
+  z-index: -100000
+}
+#selected{
+  padding: 0.8vw;
+}
+
+@keyframes Color {
+    0%   {border-color: #FDFDFD}
+    70%   {border-color: #FDFDFD}
+    75%   {border-color: #FF0000}
+    80%   {border-color: #2400FF}
+    85%   {border-color: #12FF00}
+    90%   {border-color: #FCFF00}
+    95%   {border-color: #FF9000}
+    100%   {border-color: #FDFDFD}
+}
+@keyframes color {
+    0%   {background-color: #FDFDFD}
+    70%   {background-color: #FDFDFD}
+    75%   {background-color: #FF0000}
+    80%   {background-color: #2400FF}
+    85%   {background-color: #12FF00}
+    90%   {background-color: #FCFF00}
+    95%   {background-color: #FF9000}
+    100%   {background-color: #FDFDFD}
+}
