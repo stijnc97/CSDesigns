@@ -1,10 +1,17 @@
 {
-  "name": "CS designs",
+  "name": "CSDesigns",
   "version": "1.0.0",
-  "description": "Portfoliosite van Cornelis Stijn",
+  "description": "Mobiele nieuwssite",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
   "author": "Stijn Cornelis",
   "license": "ISC",
+  "homepage": "",
   "dependencies": {
     "ejs": "^2.5.6",
     "express": "^4.15.2"
