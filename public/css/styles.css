@@ -8,6 +8,7 @@
 body{
   background: black;
   color: white;
+  font-family: 'Noto Sans', sans-serif;
 }
 h5{
   font-size: 5em;
@@ -19,39 +20,36 @@ li a{
   background-color: white;
   animation: color 10s linear 0s infinite;
   font-size: 1.2em;
-  padding: 0.2vw;
+  padding: 0.4vh 0.8vw;
   color: black;
 }
 li a:visited{
   color: black;
 }
 li a:hover{
-    padding: 0.8vw;
+    padding: 1vh 0.8vw 0.4vh 0.8vw;
 }
 nav{
-  -ms-transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-  position: relative;
-  left:-46vw;
-  top:0vh;
-}
-.container2{
   position: absolute;
-  padding: 10px;
-  margin: 5vh 5vw;
-  z-index: 1000000;
+  top: 3.1vh;
+  right: 4.8vw;
+  z-index: 10000;
 }
 .container{
   border: 10px solid white;
   margin: 5vh 5vw;
+  padding: 5vh 5vw;
   box-sizing: border-box;
-  position: relative;
+  position: absolute;
   height: 90vh;
   width: 90vw;
   animation: Color 10s linear 0s infinite;
 }
-
+#chat-height {
+  position: absolute;
+  bottom: 10vh;
+  left: 5vw;
+}
 #logo{
   width:50vw;
   position: absolute;
@@ -60,7 +58,8 @@ nav{
   z-index: -100000
 }
 #selected{
-  padding: 0.8vw;
+    padding: 1vh 0.8vw 0.4vh 0.8vw;
+    font-weight: bold;
 }
 
 @keyframes Color {
