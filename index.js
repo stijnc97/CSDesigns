@@ -4,7 +4,7 @@ var app = express();
 var pagesFile = require('./data/pages.json');
 app.set("views", path.resolve(__dirname, "views"));
 app.set("view engine", "ejs");
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static('public'))
 
@@ -44,6 +44,6 @@ app.get(/\/(.*)/, function(req, res) {
     });
   }
 });
-app.listen(process.env.PORT || 3000, function() {
-  console.log('Node luistert op poort ', app.get('port'));
+app.listen(app.get('port'), function() {
+  console.log('Node luistert op poort', app.get('port'));
 });

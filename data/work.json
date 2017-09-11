@@ -1,0 +1,15 @@
+{
+  "work": [
+    {
+      "title" : "3D logo",
+      "description": "A 3D version of my logo created whit Cinema 4D.",
+      "img": "https://scdesigns.stackstorage.com/s/fxcxwehuWhWQ4pZ",
+      "tags":"3D"
+    },
+    {
+      "title" : "Retail photography",
+      "description": "Photo's I shot and retouched during my internship at Schawk photostudio. The pictures where used by nike and can be found on <a href="#">this link</a>",
+      "img": "photography"
+    },
+  ]
+}

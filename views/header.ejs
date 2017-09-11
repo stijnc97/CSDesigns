@@ -4,16 +4,16 @@
 		<title>CS designs</title>
 		<link rel="stylesheet" type="text/css" href="/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="/css/styles.css">
-		<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 		<link rel="shortcut icon" type="image/jpg" href="https://scdesigns.stackstorage.com/public-share/PIiRXIhsjdGvbYa/preview?path=/&mode=thumbnail&size=medium"/>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 		<nav>
 			<% for (var i = 0; i < pages.length; i++) {
 				 if  ( zoekopdracht === pages[i].slug) {%>
-					 <li><a id="selected" href="<%- pages[i].slug %>"><%- pages[i].slug %></a></li>
+					<li><a id="selected" href="<%- pages[i].slug %>"><%- pages[i].slug %></a></li>
 				<% }else{ %>
 					<li><a href="<%- pages[i].slug %>"><%- pages[i].slug %></a></li>
 			<% } }%>

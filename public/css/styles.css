@@ -8,7 +8,7 @@
 body{
   background: black;
   color: white;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 h5{
   font-size: 5em;
@@ -17,23 +17,25 @@ li{
    display: inline;
 }
 li a{
-  background-color: white;
   animation: color 10s linear 0s infinite;
   font-size: 1.2em;
-  padding: 0.4vh 0.8vw;
+  height: 4vh;
+  padding: 0.3vh 0.7vw 0vh 0.7vw;
   color: black;
 }
 li a:visited{
   color: black;
 }
 li a:hover{
-    padding: 1vh 0.8vw 0.4vh 0.8vw;
+    padding: 1vh 0.7vw 0vh 0.7vw;
 }
 nav{
   position: absolute;
-  top: 3.1vh;
-  right: 4.8vw;
-  z-index: 10000;
+  top: 3vh;
+  right: 5vw;
+  width: 90vw;
+  height: 90vh;
+  z-index: 1000000;
 }
 .container{
   border: 10px solid white;
@@ -58,7 +60,8 @@ nav{
   z-index: -100000
 }
 #selected{
-    padding: 1vh 0.8vw 0.4vh 0.8vw;
+    padding: 1vh 0.7vw 0vh 0.7vw;
+    height: 3vw;
     font-weight: bold;
 }
 
@@ -81,4 +84,9 @@ nav{
     90%   {background-color: #FCFF00}
     95%   {background-color: #FF9000}
     100%   {background-color: #FDFDFD}
+}
+@media only screen and (max-width: 580px) {
+    container{
+      background-color: red;
+    }
 }
