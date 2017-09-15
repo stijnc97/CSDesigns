@@ -40,7 +40,7 @@ body{
   position: absolute;
   bottom: -10px;
   right: 0px;
-  animation: drawONE 5s ease-in-out 0s 1 normal forwards;
+  animation: drawONE 2.5s ease-in-out 0s 1 normal forwards;
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }
@@ -52,7 +52,7 @@ body{
   position: absolute;
   top: -10px;
   left: -10px;
-  animation: drawTWO 5s ease-in-out 0s 1 normal forwards;
+  animation: drawTWO 2.5s ease-in-out 0s 1 normal forwards;
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }

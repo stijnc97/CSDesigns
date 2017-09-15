@@ -3,22 +3,26 @@
     {
       "title" : "Home",
       "slug": "Home",
-      "body": "welkom home"
+      "body": "welkom home",
+      "scroll": ""
     },
     {
       "title" : "Portfolio",
       "slug": "Portfolio",
-      "body" : "<p>dit is mijn portfolio.</p>"
+      "body" : "<p>dit is mijn portfolio.</p>",
+      "scroll": ""
     },
     {
-      "title" : "A little bit <span>About myself</span>",
-      "slug": "About",
-      "body" : "<p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.</p><span class='divider'></span><p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee. </p><span class='divider'></span><p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.</p>"
+      "title" : "Over mij",
+      "slug": "Over",
+      "body" : "<p>Ik ben Stijn Cornelis 20 jaar oud en student Grafische en Digitale media op Artesis Plantijn Hogeschool Antwerpen. Als afstudeer richting heb ik gekozen voor Crossmedia ontwerp, dit omdat ik graag alle communicatiekanelen wil verkennen om er optimaal gebruik van te maken. In mijn vrije tijd ben ik ook creatief bezig doormiddel van Urbex (het fotograferen van verlaten gebouwen). Dit doe ik samen met een vriend, voor ons is het de ideale combinatie tussen avontuurlijk en creatief. Maar ik ben ook verantwoordelijke van het Jeugd Rode Kruis Borsbeek-Wommelgem, en hier kan ik samen met mijn team een heel jaar lang creatief bezig zijn met het verzinnen van spelletjes en het aanleren van eerste hulp aan kinderen.</p>",
+      "scroll": "<img src='https://scdesigns.stackstorage.com/public-share/TOW6gOaw76hbDai/preview?path=/&mode=thumbnail&size=medium' id='bottom'></img>"
     },
     {
-      "title" : "Experience",
-      "slug": "Experience",
-      "body" : "<p>Dit zijn mijn ervaringen</p>"
+      "title" : "Ervaring",
+      "slug": "Ervaring",
+      "body" : "<img src='https://scdesigns.stackstorage.com/public-share/mMgWAmxkMVwy3ow/preview?path=/&mode=thumbnail&size=medium'>",
+      "scroll": "<img src='http://www.persgroep.be/sites/default/files/styles/468x250/public/media/Logos/logo_dpp.jpg?itok=aL_rZ4l_'class='ervaring'><br><h3>De persgroep publishing - 2015</h3><br><p>Mijn eerste stage die ik in mijn 6de middelbaar volgde was bij De persgroep publishing. Dit is een drukkerij die kranten en magazines drukt zoals bijvoorbeeld: Het Laatste Nieuws, De morgen, Humo,... Mijn stage duurde 1 week en tijdens deze week was ik werkzaam in de photoshop afdeling van het bedrijf. Mijn taken bestonden uit het photoshoppen van verschillende foto's die door de redacties van de kranten/magazines werden doorgestuurd. De correcties die moesten gebeuren waren vaak kleurcorrecties en kleine retouches. Dit was een zeer interessante en leerrijke eerste stage.</p><br><img src='https://www.ncoi.nl/NCOI/media/NCOI/Pagina%20content/7_Smurfit_Kappa.jpg?width=660&height=350&ext=.jpg'class='ervaring'><br><h3>Smurfit Kappa - 2015</h3><br><p>Als tweede stage in het 6de middelbaar mocht ik een week lang meelopen bij Smurfit kappa als drukker. Smurfit Kappa is een van de grootste verpakkingsproducenten van Europa, de vestiging van Turnhout waar ik stage liep is gespecialiseerd in het produceren van kartonnenverpakkingen. Als student printmedia hielp ik de drukkers bij het drukken van verschillende oplages waaronder playstation 3 dozen, schoendozen,... </p><br><img src='http://www.getfilings.com/sec-filings/091209/SCHAWK-INC_8-K/ex99-11.jpg'class='ervaring'><br><h3>Schawk - 2017</h3><br><p>Mijn eerste stage in de hogeschool kon ik doen bij Schawk, een internationaal crossmedia bedrijf. Als crossmedia student kon ik mijn stage doen in de fotostudio, hier doen ze aan productfotografie voor nike, kipling,... Mijn taak bestond voornaamelijk uit het maken van kleurcorrecties voor nike schoenen. Ook heb ik tijdens de laatste week van mijn stage als 2de photograaf gewerkt. Na mijn stage heb een studentenjob aangenomen bij Schawk. Hierdoor heb ik meer ervaring opgedaan als 2de fotograaf en heb ik ook als 1ste fotograaf gewerkt.</p><br>"
     }
   ]
 }

@@ -10,6 +10,14 @@ body{
   color: white;
   font-family: 'Oxygen', sans-serif;
 }
+h2{
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 150%;
+}
+h3{
+  font-size: 2em;
+}
 h5{
   font-size: 5em;
 }
@@ -26,16 +34,30 @@ li a{
 li a:visited{
   color: black;
 }
+a:visited{
+  color: gray;
+}
 li a:hover{
     padding: 1vh 0.7vw 0vh 0.7vw;
+}
+img{
+  width: 80%;
 }
 nav{
   position: absolute;
   top: 3vh;
   right: 5vw;
   width: 90vw;
-  height: 90vh;
+  height: 10vh;
   z-index: 1000000;
+}
+section{
+  width: 30vw;
+  height: 57vh;
+  position: absolute;
+  top: 30vh;
+  left: 3vw;
+  text-align: right;
 }
 .container{
   border: 10px solid white;
@@ -46,6 +68,27 @@ nav{
   height: 90vh;
   width: 90vw;
   animation: Color 10s linear 0s infinite;
+  background: url("https://scdesigns.stackstorage.com/public-share/YcNlUuydRmelPlU/preview?path=/&mode=thumbnail&size=medium");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.scroll{
+  width: 50vw;
+  height: 78vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow-y: scroll;
+  padding-top: 10vh;
+}
+.ervaring{
+  width: 30vw;
+}
+#bottom{
+  width: 65vw;
+  position: fixed;
+  bottom:6vh;
+  right: 10vw;
 }
 #chat-height {
   position: absolute;
