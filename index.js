@@ -8,16 +8,16 @@ app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static('public'))
 
-// renderen van de index
-app.get('/', function(req, res) {
-  res.render("index", {});
-});
-
 app.get("/home", function(req, res) {
     res.render("home", {
         pages: pagesFile.pages,
-        zoekopdracht: "home"
+        zoekopdracht: "Home"
     });
+});
+
+// renderen van de index
+app.get('/', function(req, res) {
+  res.render("index", {});
 });
 
 //zoeken van een pagina en renderen van 404 in geval van geen pagina
