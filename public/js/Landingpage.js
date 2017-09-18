@@ -12,9 +12,9 @@ function main() {
    function load(){
      window.location.href = '/home'
    }
-  setTimeout(animation1, 0);
-  setTimeout(animation2, 2500);
-  setTimeout(load,5000);
+  setTimeout(animation1, 2500);
+  setTimeout(animation2, 5000);
+  setTimeout(load,7500);
 }
 
 window.onload = function() {

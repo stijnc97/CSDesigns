@@ -7,6 +7,7 @@
 */
 body{
   background: black;
+  overflow: hidden;
 }
 #logo{
   width:50vw;
@@ -58,14 +59,14 @@ body{
 }
 
 @keyframes drawTWO {
-    0%   {width: 105%; height: 100%;}
-    50%  {width: 105%; height: 10px;}
+    0%   {width: 105%; height: 110%;}
+    23%  {width: 105%; height: 10px;}
     99% {width: 0%; height: 0px;  border-top: 10px solid black; border-left: 10px solid black;}
     100% {width: 0%; height: 0px; border: none}
 }
 @keyframes drawONE {
     0%   {width: 105%; height: 100%;}
-    50%  {width: 105%; height: 10px;}
+    23%  {width: 105%; height: 10px;}
     99% {width: 0vw; height: 0px;border-bottom: 10px solid black; border-right: 10px solid black;}
     100% {width: 0vw; height: 0px; border: none}
 }
@@ -75,4 +76,12 @@ body{
     60%   {border-color: #12FF00}
     80%   {border-color: #FCFF00}
     100%   {border-color: #FF9000}
+}
+
+@media only screen and (max-width: 700px) {
+  #logo{
+    width: 100vw;
+    top: 25vh;
+    left: 0vw;
+  }
 }

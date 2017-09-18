@@ -10,13 +10,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<nav>
-			<% for (var i = 0; i < pages.length; i++) {
-				 if  ( zoekopdracht === pages[i].slug) {%>
-					<li><a id="selected" href="<%- pages[i].slug %>"><%- pages[i].slug %></a></li>
-				<% }else{ %>
-					<li><a href="<%- pages[i].slug %>"><%- pages[i].slug %></a></li>
-			<% } }%>
-		</nav>
-
+		<div class="menu-section">
+		  <div class="menu-toggle">
+		    <div class="one"></div>
+		    <div class="two"></div>
+		    <div class="three"></div>
+		  </div>
+		  <nav>
+		    <ul role="navigation" class="hidden">
+					<nav>
+						<% for (var i = 0; i < pages.length; i++) {
+							 if  ( zoekopdracht === pages[i].slug) {%>
+								<li><a id="selected" href="<%- pages[i].slug %>"><%- pages[i].slug %></a></li>
+							<% }else{ %>
+								<li><a href="<%- pages[i].slug %>"><%- pages[i].slug %></a></li>
+						<% } }%>
+					</nav>
+		    </ul>
+		  </nav>
+		</div>
 		<div class="container">
