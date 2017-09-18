@@ -1,13 +1,9 @@
-/*$(".menu-toggle").on('click', function() {
-  $(this).toggleClass("on");
-  $('.menu-section').toggleClass("on");
-  $("nav ul").toggleClass('hidden');
-});*/
 function main() {
-  document.getElementsByClassName("menu-toggle").onclick = function(){
-    document.getElementsByClassName("menu-toggle").toggleClass("on");
-    document.getElementsByClassName("menu-section").toggleClass("on");
-    document.nav.ul.toggleClass("on");
+  var menuToggle= document.getElementsByClassName("menu-toggle")[0];
+    menuToggle.onclick = function(){
+    menuToggle.classList.toggle("on");
+    document.getElementsByClassName("menu-section")[0].classList.toggle("on");
+    document.getElementById("list").classList.toggle("on");
   };
 }
 
